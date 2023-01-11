@@ -1,0 +1,268 @@
+    .body
+    {
+        background-color: white;
+    }
+
+    .section-one
+    {
+        background-image:url("sunrise.jpg");
+        background-position: center; 
+        background-repeat: no-repeat; 
+        background-size: cover;   
+        height: 600px;
+        width: 100%;
+    }
+
+    .header
+    {
+        height: 100px;
+        padding: 10px 10px 0px 10px;
+        margin-bottom:50px;
+    }
+
+    .logo
+    {
+        color:darkblue;
+        font-family:Segoe UI Light;
+        font-weight:100;
+        font-size: 38px;
+        letter-spacing: 2px;
+    }
+
+    .sidenav 
+    {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        right: 0;
+        background-color:#717171;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+    }
+
+    .sidenav a 
+    {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 17px;
+        color: #f7db77;
+        display: block;
+        transition: 0.3s;
+    }
+
+    .sidenav a:hover
+    {
+        color: #f1f1f1;
+        background-color: #818181;
+    }
+
+    .sidenav .closebtn
+    {
+        position: absolute;
+        top: 0;
+        right: 5px;
+        font-size: 30px;
+        text-align:center;
+    }
+
+    .menubtn
+    {
+        cursor:pointer;
+        text-align: center;
+        float: right;
+        padding-top:10px;
+        background-color: #575757;
+        color: white;
+        height: 45px;
+        width: 45px;
+        border-radius: 5%;
+    }
+
+    .subheading
+    {
+        text-align: center; 
+        font-family:Segoe UI Light;
+        font-size: 50px;
+        font-weight: 600;
+    }
+
+    .wrapper 
+    {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        grid-column-gap: 100px;
+        grid-row-gap:10px;
+    }
+
+    .form-div
+    {
+        margin: 0px 245px 0px 245px;
+    }
+
+    .i-ctrl
+    {
+        height: 40px;
+        width:400px;
+        padding-left: 20px;
+        border-color:#717171;
+        border-width: 1px;
+        border-radius: 25px;
+    }
+
+    .register
+    {
+        height: 40px;
+        width:120px;
+        background-color:rgb(251, 250, 190);
+        border: none;
+        border-radius: 25px;
+    }
+     
+    .register:hover{
+        background-color: #f7db77;
+    }
+
+
+
+@media screen and (max-height: 450px)
+{
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.section-two
+{
+    margin-top: 50px;
+    padding: 30px 0px 30px 0px;
+    height: 500px;
+    background-color:white;
+}
+
+.intro-img
+{
+    height: 100%;
+    width: 100%;
+}
+
+.about
+{
+    margin-right: 5px;
+    margin-left: 5px;
+    width: 47%;
+    height: 420px;
+    border-radius: 5px;
+    background-repeat:no-repeat; 
+    background-size:contain;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.side-about
+{
+    width: 2%;
+}
+
+.section-three
+{
+    padding: 50px 0px 50px 0px;
+    height: 600px;
+    background-color:rgb(255, 243, 243);
+}
+
+.md-div
+{
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0;
+    border-radius: 5px;
+    background-repeat:no-repeat; 
+    background-size:contain;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+
+.div-img
+{
+    height: 50%;
+    width: 100%;
+}
+
+.div-heading
+{
+    font-weight: 700;
+    text-align: center;
+    color:rgb(163, 109, 109);
+    font-size: larger;
+    margin-top: 10px;
+}
+
+.div-para
+{
+    text-align:justify;
+    padding:0px 15px 0px 15px;
+    color: rgb(81, 20, 20);
+}
+
+.section-cont
+{
+    height: 500px;
+    padding: 50px 20px 50px 20px;
+}
+
+.title
+{
+    text-align: center;
+    font-weight: 700;
+    color:rgb(85, 57, 57);
+    font-size: larger;
+}
+
+.send
+{
+    height: 40px;
+    width:150px;
+    color: white;
+    background-color: rgb(113, 28, 28);
+    border: none;
+    border-radius: 25px;
+}
+
+.icon
+{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgb(113, 28, 28);
+    text-align: center;
+    padding-top: 12px;
+    color: white;
+}
+
+.form-ctrl
+{
+    height: 40px;
+    width:400px;
+    padding-left: 20px;
+    border-color:#717171;
+    border-width: 1px;
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+
+.footer
+{
+    padding: 40px;
+    margin: 0px 0px 0px 0px;
+    height: 120px;
+    background-color:rgb(1, 1, 88);
+    color: white;
+    text-align: center;
+}
